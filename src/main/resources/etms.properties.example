@@ -1,0 +1,11 @@
+# Copy values into environment variables or JVM properties; do not commit secrets.
+# ETMS_DB_URL=jdbc:postgresql://host:5432/database?sslmode=require
+# ETMS_DB_USER=database_user
+# ETMS_DB_PASSWORD=database_password
+#
+# When initializing an empty production database, supply a strong one-time
+# bootstrap password. It is never replaced after the admin account is created.
+# ETMS_BOOTSTRAP_ADMIN_PASSWORD=change-me-to-a-strong-secret
+#
+# Optional development-only sample data. Defaults to false.
+# ETMS_DEMO_DATA=false

@@ -1,0 +1,32 @@
+# Compiled files
+target/
+*.class
+
+# IDE files
+.idea/
+*.iml
+.settings/
+.project
+.classpath
+.vscode/
+nbproject/
+nbactions.xml
+
+# Logs
+*.log
+
+# Local database files
+*.db
+*.h2.db
+*.mv.db
+
+# Environment-specific files
+.env
+application.properties
+config.properties
+run.bat
+src/main/resources/etms.properties
+
+# Local exports and database backups
+backups/
+reports/
